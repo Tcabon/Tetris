@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "extends": "airbnb",
+  "rules": {
+    "linebreak-style": off,
+    "react/prop-types": off,
+    "no-plusplus": off,
+    "import/extensions": off,
+    "no-param-reassign": off,
+    "no-case-declarations": off,
+    "eol-last": off,
+    "react/jsx-fragments": off
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
